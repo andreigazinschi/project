@@ -20,6 +20,12 @@ let Golden_Apple: Sprite = null
 let Bomb: Sprite = null
 let Watermelom: Sprite = null
 scene.setBackgroundColor(11)
+game.showLongText("Move the knife with the arrow keys and try to cut the watermelon. ", DialogLayout.Bottom)
+game.showLongText("You get a point every time you hit a watermelon.", DialogLayout.Bottom)
+game.showLongText("Don't touch a bomb otherwise you will lose a life. If you lose all the three, it is game over.", DialogLayout.Bottom)
+game.showLongText("Every so often there will be a golden apple that will give you five points but it is hard to catch.", DialogLayout.Bottom)
+game.showLongText("You have to try to get the highest score in 30 seconds.", DialogLayout.Bottom)
+game.showLongText("Press A to Begin", DialogLayout.Full)
 let Knife = sprites.create(img`
 . . . . . . . . . . 1 1 1 
 . . . . . . . . . 1 1 1 1 
